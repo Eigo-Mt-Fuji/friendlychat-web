@@ -100,3 +100,41 @@ Unable to get messaging token. FirebaseError: Messaging: We are unable to regist
 </script>
 ```
     - 
+
+
+## Note
+
+Firebaseサンプル https://firebase.google.com/docs/samples/?hl=ja の中で https://efgriver.slack.com/archives/C8KFR9Q68/p1563625823000300 に関連する機能1 (開発)
+
+```
+* Authentication 認証API(Web)
+* Cloud Firestore NoSQL データベース(新) - Realtime Database NoSQLデータベース JSON保管(旧)(Web)
+* Cloud Messaging ユーザーに対して表示される通知メッセージを送信, 個々のデバイスに、デバイス グループに、または特定トピックの配信登録をしているデバイスに(Web)
+* Dynamic Links(Invites)(Native) 独自ドメインでアプリスキーム だけでなく、Invitesが提供していた機能も提供アプリのインストールを挟んでも有効な、クロスプラットフォームの招待リンク。共有画面で自分の Google コンタクトと端末にローカル保存された連絡先から受信者を選択 /  SMS で送信され、アプリへのダイナミック リンクを送る
+* Cloud Storage 写真や動画など、ユーザーが作成したコンテンツを保管
+```
+
+上記以外で、アプリ運営に必要な機能
+
+```
+AdMob    モバイル広告　AdMob API を使用して、アプリの UI にバナー広告用のスペースを作成
+アナリティクス アクセス解析
+App Indexing    アプリを Google 検索結果に表示することができる
+Performance Monitoring パフォーマンス分析
+Cloud Functions FaaS
+```
+
+やること
+
+## Firebaseの基本
+* [Friendlychat](https://codelabs.developers.google.com/codelabs/firebase-web/#14)
+
+## Android/iPhoneアプリを作るには?
+* WebViewを表示できるようになるまで雛形が必要
+* Firebase Webで使ったFirebaseプロジェクトを、iOS/Androidでも使うことはできるのか。
+ - 少なくとも、Dynamic LinksはAndroid/iOSのSDKで使う
+* 参考になりそうなサイト
+ * Android: android-professional-website-app-with-firebase-backend
+   - https://codecanyon.net/item/android-professional-website-app-with-firebase-backend-and-admob/19202563
+ * iPhone
+   - https://www.sitepoint.com/creating-a-firebase-backend-for-ios-app/ (e
